@@ -1,0 +1,221 @@
+* {
+    
+    font-family: 'Varela Round', sans-serif;;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.archer-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.to-right {
+    margin-left: auto;
+    display: flex;
+    margin-right: 50px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.right-links {
+    color: #F9FAF8 ;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    
+}
+
+.hero {
+    
+    background-color: #1F2937;
+    display: flex;
+    padding: 75px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.hero-left {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+
+}
+
+.hero-right {
+    margin-right: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 40%;
+}
+
+
+
+.hero-right-photo {
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 10px 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 10px 0;
+}
+
+.hero-button {
+    margin: .25rem .125rem;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px solid red
+}
+
+.hero-button:hover {
+    margin: .25rem .125rem;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid red
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8 ;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+.card-container img {
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.card {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* .card p {
+    display: flex;
+} */
+
+.quote {
+    background-color: #E5E7EB ;
+}
+
+.quote div {
+    margin: 50px 75px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.cta {
+    margin: 75px 50px;
+    padding: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 15px;
+
+}
+
+#booper {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    margin: .25rem .125rem;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0 solid white;
+    font-weight: bold;
+}
+
+#booper:hover {
+    background-color: #F9FAF8;
+}
+
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
